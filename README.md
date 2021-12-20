@@ -32,7 +32,8 @@ To get a local copy up and running follow these simple example steps.
   - Open terminal and navigate to the downloaded / project folder
   - run npm install
   - run npm run compile:sass
-  - open index.html by double clicking on it.
+  - run npm install live-server.
+  - run live-server
 
 ### Usage
 - double click on the html index file to open in browser.

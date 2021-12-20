@@ -1,27 +1,23 @@
-/*
-COLORS:
-
-Primary: #EC5242
-Secondary: #D3D3D3
-Dark: #272A31
-
-*/
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
 
 html {
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   padding: 3rem;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
+/* ------------------------------
+  Media Queries for mobile only
+--------------------------------- */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue; } }

@@ -1,32 +1,14 @@
-/*
-COLORS:
+@import "abstracts/variables";
 
-Primary: #EC5242
-Secondary: #D3D3D3
-Dark: #272A31
+@import "base/base";
+@import "base/animatioins";
+@import "base/typography";
+@import "base/utilities";
 
-*/
+@import "pages/about";
+@import "pages/home";
 
-$color-primary:#EC5242;
-$color-secondary:#D3D3D3;
-$color-dark:#272A31;
+@import "layouts/header";
+@import "layouts/footer";
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.7;
-  padding: 3rem;
-  box-sizing: border-box;
-}
+@import "components/buttons";
