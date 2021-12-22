@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .mobile-navigaton {
     display: none;
   }
@@ -7,15 +7,14 @@
     display: none !important;
   }
 
-#main-navigation {
-  background-color: #FFF;
-  box-shadow: 5px 10px 8px #888888;
-  padding: 0.5rem;
-  position: fixed !important;
-  top: 2rem;
-  width: 100%;
-  overflow: hidden;
-  z-index: 1;
-}
-
+  #main-navigation {
+    background-color: #fff;
+    box-shadow: 5px 10px 8px #888;
+    padding: 0.5rem;
+    position: fixed !important;
+    top: 2rem;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
 }

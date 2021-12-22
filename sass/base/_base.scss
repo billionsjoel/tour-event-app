@@ -9,6 +9,7 @@
 .color-secondary {
   color: $color-secondary;
 }
+
 .color-primary {
   color: $color-primary;
 }
@@ -26,5 +27,12 @@
   height: 1.5px;
   margin-top: -0.1rem;
   margin-bottom: 1rem;
-  background-color: lighten($color: #9b9898, $amount: 1)  ;
+  background-color: lighten($color: #9b9898, $amount: 1);
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
 }

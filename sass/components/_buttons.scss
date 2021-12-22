@@ -1,15 +1,15 @@
 .cta-btn {
-    background-color: $color-primary;
-    padding: 2rem;
-    width: 80%;
-    text-decoration: none;
-    border: none;
-    color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: lighter;
-    margin-bottom: 6rem;
-    border-radius: 2px;
-  }
+  background-color: $color-primary;
+  padding: 2rem;
+  width: 80%;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 6rem;
+  border-radius: 2px;
+}
 
 .outline-btn {
   display: flex;
@@ -20,14 +20,13 @@
   padding: 1rem;
   margin-bottom: 3rem;
 
-  & a{
+  & a {
     text-decoration: none;
     text-transform: uppercase;
     color: $color-dark;
   }
 
-  & svg{
+  & svg {
     color: $color-primary;
   }
-
 }

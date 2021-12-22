@@ -6,21 +6,20 @@
   padding: 6rem;
   gap: 2rem;
 
-
- & .footer-logo{
+  & .footer-logo {
     display: flex;
     justify-content: center;
-    gap:1rem;
+    gap: 1rem;
 
     & svg {
-          height: 4rem;
-          width: 4rem;
-          padding: 1rem;
-          border: 1px solid $color-secondary;
-          border-radius: 100px 100px 100px 100px;
+      height: 4rem;
+      width: 4rem;
+      padding: 1rem;
+      border: 1px solid $color-secondary;
+      border-radius: 100px 100px 100px 100px;
     }
 
-  & p {
+    & p {
       padding: 1rem;
       font-weight: bold;
       font-size: 1rem;

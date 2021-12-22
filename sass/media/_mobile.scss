@@ -7,38 +7,38 @@
     max-width: 85%;
   }
 
-  header{
+  header {
     height: 100vh;
   }
 
- .main-navigation {
+  .main-navigation {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: center;
     padding: 1rem;
-    background-color: #FFF;
+    background-color: #fff;
 
     & .navigation-logo {
-        display: none;
-      }
+      display: none;
+    }
 
     & .main-menu ul {
-        display: none;
+      display: none;
     }
 
     & .menu-icon {
-        display: block;
-        margin-top: 1rem;
+      display: block;
+      margin-top: 1rem;
 
       & svg {
-          height: 4rem;
-          width: 4rem;
-       }
+        height: 4rem;
+        width: 4rem;
+      }
     }
   }
 
-  .mobile-navigaton{
+  .mobile-navigaton {
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -55,10 +55,9 @@
       & li {
         padding: 1rem;
 
-      & a {
-        text-decoration: none;
-        color: $color-dark;
-
+        & a {
+          text-decoration: none;
+          color: $color-dark;
         }
 
         &:hover {
@@ -84,88 +83,87 @@
     }
   }
 
-#header-about {
-  height: 85vh !important;
-}
+  #header-about {
+    height: 85vh !important;
+  }
 
-.head {
-  height: 90vh;
-  margin-top: -2rem;
+  .head {
+    height: 90vh;
+    margin-top: -2rem;
 
-  & .head-content {
-    margin-top: 0;
+    & .head-content {
+      margin-top: 0;
 
-    & h2 {
-      font-size: 2rem;
-      margin-top: -6rem;
-    }
-
-    & h6 {
-      padding: 6rem 2rem 2rem 0;
-      font-size: 2rem;
-      font-weight: 300;
-      color: $color-primary;
-    }
-
-    & h1 {
-      padding: 0 2rem 2rem 0;
-      font-size: 4rem;
-      display: inline-block;
-      font-weight: 900;
-      text-transform: uppercase;
-      color: transparent;
-      background-clip: text;
-      -webkit-background-clip: text;
-      background-image: url('../../images/red-pattern.jpeg');
-
-      & .year {
-        display: block;
-      }
-    }
-
-    & .head-text {
-      border: 1px solid #FFFFFF;
-      padding: 2rem;
-      min-width: 100%;
-      max-width: 100%;
-
-      & p {
-        line-height: 2rem;
-        overflow: auto;
-
-      }
-    }
-
-    & .head-text-about {
-      border: 1px solid #FFFFFF;
-      padding: 1rem;
-      min-width: 100%;
-      max-width: 150%;
-      background-color: #FFFFFF;
-      text-align: center;
-
-      & p {
-        line-height: 1rem;
-      }
-    }
-
-    & .head-date {
-      padding-top: 2rem;
-      padding-bottom: 0;
-
-      & h4 {
-        font-size: 2.3rem;
-        font-weight: 700;
-        color: $color-dark;
+      & h2 {
+        font-size: 2rem;
+        margin-top: -6rem;
       }
 
-      & p {
-        padding: 1rem 1rem 1rem 0;
-        color: $color-secondary;
-        font-size: 1.2rem;
-        font-weight: 700;
+      & h6 {
+        padding: 6rem 2rem 2rem 0;
+        font-size: 2rem;
+        font-weight: 300;
+        color: $color-primary;
       }
-     }
+
+      & h1 {
+        padding: 0 2rem 2rem 0;
+        font-size: 4rem;
+        display: inline-block;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: url('../../images/red-pattern.jpeg');
+
+        & .year {
+          display: block;
+        }
+      }
+
+      & .head-text {
+        border: 1px solid #fff;
+        padding: 2rem;
+        min-width: 100%;
+        max-width: 100%;
+
+        & p {
+          line-height: 2rem;
+          overflow: auto;
+        }
+      }
+
+      & .head-text-about {
+        border: 1px solid #fff;
+        padding: 1rem;
+        min-width: 100%;
+        max-width: 150%;
+        background-color: #fff;
+        text-align: center;
+
+        & p {
+          line-height: 1rem;
+        }
+      }
+
+      & .head-date {
+        padding-top: 2rem;
+        padding-bottom: 0;
+
+        & h4 {
+          font-size: 2.3rem;
+          font-weight: 700;
+          color: $color-dark;
+        }
+
+        & p {
+          padding: 1rem 1rem 1rem 0;
+          color: $color-secondary;
+          font-size: 1.2rem;
+          font-weight: 700;
+        }
+      }
     }
   }
 
@@ -173,7 +171,6 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: left;
     width: 100%;
     margin-right: 2rem;
 
@@ -202,140 +199,139 @@
         padding: 2rem 2rem 0 2rem;
 
         & svg {
-          color: #FFFFFF;
+          color: #fff;
           height: 2rem;
           width: 2rem;
         }
       }
     }
   }
-.main-section {
 
-  & .main-content {
-    width: 100%;
-
-    & .cta {
-      text-align: center;
-      margin-bottom: 6rem;
-      margin-top: -4rem;
+  .main-section {
+    & .main-content {
       width: 100%;
-      display: flex ;
-      justify-content: center;
-      align-items: center;
 
-      & > a {
-        display: none;
-      }
-
-      & button {
-        display: block;
+      & .cta {
         text-align: center;
+        margin-bottom: 6rem;
+        margin-top: -4rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > a {
+          display: none;
+        }
+
+        & button {
+          display: block;
+          text-align: center;
+        }
       }
     }
   }
-}
 
-.featured {
-  width: 100%;
-  margin-top: 140vh;
+  .featured {
+    width: 100%;
+    margin-top: 140vh;
 
+    & .featured-title {
+      text-align: center;
+      display: block;
 
-  & .featured-title {
-    text-align: center;
-    display: block;
-
-    & h2 {
-      color: #000000;
+      & h2 {
+        color: #000;
+      }
     }
   }
-}
 
-.speaker-cards {
-  margin-top: 5rem;
-  margin-bottom: 6rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+  .partners {
+    height: 45rem;
 
-  & .speaker-card {
+    & .partners-title h3 {
+      padding-top: 4rem;
+    }
+
+    & .partner-logos {
+      gap: 5rem;
+      margin-top: 2rem;
+
+      & .logo {
+        height: 2rem !important;
+        width: 2rem !important;
+      }
+    }
+  }
+
+  .speaker-cards {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 
-    & .speaker-card-bg svg {
-      height: 8rem;
-      width: 8rem;
-      position: absolute;
-      margin-left: -1.5rem;
-      margin-top: -1.2rem;
-      background-color: $color-secondary;
-      opacity: 0.5;
-      z-index: -1;
-    }
+    & .speaker-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 1rem;
 
-    & img {
-      height: 10rem;
-      width: 10rem;
-      object-fit: cover;
-    }
+      & .speaker-card-bg svg {
+        height: 8rem;
+        width: 8rem;
+        position: absolute;
+        margin-left: -1.5rem;
+        margin-top: -1.2rem;
+        background-color: $color-secondary;
+        opacity: 0.5;
+        z-index: -1;
+      }
 
-    & .speaker-name h3 {
-      color: $color-dark;
-    }
+      & img {
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+      }
 
-    & .speaker-title p {
-      color: $color-primary;
-      padding-bottom: 1rem;
-    }
+      & .speaker-name h3 {
+        color: $color-dark;
+      }
 
-    & .speaker-details p {
-      color: $color-dark;
+      & .speaker-title p {
+        color: $color-primary;
+        padding-bottom: 1rem;
+      }
+
+      & .speaker-details p {
+        color: $color-dark;
+      }
     }
   }
-}
 
-.partners {
-  height: 45rem;
-
-  & .partners-title h3 {
+  #events {
+    margin: 1rem 0;
     padding-top: 4rem;
   }
 
-  & .partner-logos {
-    gap: 5rem;
-    margin-top: 2rem;
+  .event-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
 
-    & .logo {
-          height: 2rem !important;
-          width: 2rem !important;
+    & .event-card-1 {
+      width: 100%;
+    }
+
+    & .event-card-2 {
+      width: 100%;
     }
   }
-}
-#events {
-  margin: 1rem 0;
-  padding-top: 4rem;
-}
-
-.event-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 1rem;
-  width: 100%;
-
-   & .event-card-1 {
-    width: 100%;
-   }
-
-   & .event-card-2 {
-    width: 100%;
-   }
-}
-
 }

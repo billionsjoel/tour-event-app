@@ -3,7 +3,7 @@
   Primary: #EC5242
   Secondary: #D3D3D3
   Dark: #272A31
--------------------------------*/
+------------------------------- */
 *,
 *::after,
 *::before {
@@ -12,10 +12,10 @@
   box-sizing: inherit; }
 
 .color-secondary {
-  color: #D3D3D3; }
+  color: #d3d3d3; }
 
 .color-primary {
-  color: #EC5242; }
+  color: #ec5242; }
 
 .show {
   display: block; }
@@ -52,7 +52,7 @@ body {
   .events .events-title p {
     font-weight: 300;
     padding: 2rem;
-    color: #272A31; }
+    color: #272a31; }
 
 .events .event-card-1 {
   background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.95), rgba(236, 82, 66, 0.95)), url(../../images/forest-bg.jpeg);
@@ -62,7 +62,7 @@ body {
   background-size: cover;
   background-blend-mode: color;
   object-fit: contain;
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -77,7 +77,7 @@ body {
   background-size: cover;
   background-blend-mode: color;
   object-fit: contain;
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -99,7 +99,7 @@ header {
   background-position: top; }
 
 .top-nav {
-  background-color: #272A31;
+  background-color: #272a31;
   position: fixed;
   top: 0;
   width: 100%;
@@ -110,7 +110,7 @@ header {
     justify-content: right;
     align-items: center; }
     .top-nav ul li {
-      color: #D3D3D3;
+      color: #d3d3d3;
       list-style: none;
       padding: 0.3rem 0.3rem 0.3rem 0.8rem; }
       .top-nav ul li icon {
@@ -119,38 +119,38 @@ header {
         cursor: pointer; }
 
 #main-navigation {
-  background-color: #FFF; }
+  background-color: #fff; }
 
 .main-navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #FFF; }
+  background-color: #fff; }
   .main-navigation .navigation-logo svg {
     height: 2rem;
     width: 2rem;
-    color: #272A31; }
+    color: #272a31; }
     .main-navigation .navigation-logo svg:hover {
       transform: rotate(360deg) scale(1.5);
       transition: 0.4s all ease-in-out;
-      color: #EC5242; }
+      color: #ec5242; }
   .main-navigation .main-menu ul {
     display: flex;
     list-style: none;
     gap: 1rem; }
     .main-navigation .main-menu ul li a {
-      color: #272A31;
+      color: #272a31;
       text-decoration: none;
       font-size: 1rem;
       font-weight: bold;
       padding: 0.5rem 1rem; }
       .main-navigation .main-menu ul li a:hover {
-        background-color: #EC5242;
+        background-color: #ec5242;
         padding: 0.5rem 1.05rem;
         transform: scale(1.01);
         transition: 0.3s all ease-in-out;
-        color: #FFFFFF;
+        color: #fff;
         border-radius: 5px; }
   .main-navigation .menu-icon {
     display: none; }
@@ -166,7 +166,7 @@ header {
       padding: 6rem 2rem 2rem 0;
       font-size: 4rem;
       font-weight: 300;
-      color: #EC5242; }
+      color: #ec5242; }
     .head .head-content h1 {
       padding: 0 2rem 2rem 0;
       font-size: 7rem;
@@ -183,21 +183,21 @@ header {
       font-size: 7rem;
       font-weight: 900;
       text-transform: uppercase;
-      color: #EC5242;
+      color: #ec5242;
       text-align: center; }
     .head .head-content .head-text {
-      border: 1px solid #FFFFFF;
+      border: 1px solid #fff;
       padding: 2rem;
       min-width: 50%;
       max-width: 50%; }
       .head .head-content .head-text p {
         line-height: 2rem; }
     .head .head-content .head-text-about {
-      border: 1px solid #FFFFFF;
+      border: 1px solid #fff;
       padding: 2rem;
       min-width: 100%;
       max-width: 100%;
-      background-color: #FFFFFF;
+      background-color: #fff;
       text-align: center; }
       .head .head-content .head-text-about p {
         line-height: 2rem;
@@ -208,10 +208,10 @@ header {
       .head .head-content .head-date h4 {
         font-size: 2.3rem;
         font-weight: 700;
-        color: #272A31; }
+        color: #272a31; }
       .head .head-content .head-date p {
         padding: 1rem 1rem 1rem 0;
-        color: #D3D3D3;
+        color: #d3d3d3;
         font-size: 1.2rem;
         font-weight: 700; }
 
@@ -224,7 +224,7 @@ header {
   .main-section .main-content {
     width: 100%; }
     .main-section .main-content h3 {
-      color: #FFFFFF;
+      color: #fff;
       text-align: center;
       padding: 4rem;
       width: 100%;
@@ -236,12 +236,12 @@ header {
       margin-left: auto;
       margin-right: auto;
       margin-top: -3rem;
-      background-color: #EC5242; }
+      background-color: #ec5242; }
     .main-section .main-content .cta {
       text-align: center;
       margin-bottom: 6rem; }
       .main-section .main-content .cta > a {
-        color: #FFFFFF;
+        color: #fff;
         text-transform: uppercase;
         line-height: 1.5rem;
         font-size: 1.4rem;
@@ -257,16 +257,16 @@ header {
   margin: 6rem 0 6rem 0; }
   .cards .card {
     background-color: rgba(39, 42, 49, 0.5);
-    color: #D3D3D3;
+    color: #d3d3d3;
     display: flex;
     flex-direction: column;
-    justify-content: middle;
+    justify-content: center;
     align-items: center;
     width: 500px !important; }
     .cards .card h6 {
       font-size: 2rem;
       font-weight: 400;
-      color: #EC5242; }
+      color: #ec5242; }
     .cards .card .card-text {
       text-align: center;
       padding: 1rem;
@@ -275,7 +275,7 @@ header {
     .cards .card .icon {
       padding: 2rem 2rem 0 2rem; }
       .cards .card .icon svg {
-        color: #FFFFFF;
+        color: #fff;
         height: 4rem;
         width: 2rem; }
 
@@ -283,7 +283,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: #272A31;
+  color: #272a31;
   padding: 6rem;
   gap: 2rem; }
   .footer .footer-logo {
@@ -294,7 +294,7 @@ header {
       height: 4rem;
       width: 4rem;
       padding: 1rem;
-      border: 1px solid #D3D3D3;
+      border: 1px solid #d3d3d3;
       border-radius: 100px 100px 100px 100px; }
     .footer .footer-logo p {
       padding: 1rem;
@@ -308,15 +308,15 @@ header {
     text-align: center;
     display: block; }
     .featured .featured-title h2 {
-      color: #000000; }
+      color: #000; }
 
 .partners {
-  background-color: #272A31;
+  background-color: #272a31;
   height: 20rem; }
   .partners .partners-title h3 {
     text-align: center;
     font-size: 1.5rem;
-    color: #D3D3D3;
+    color: #d3d3d3;
     padding-top: 3rem; }
   .partners .partner-logos {
     display: flex;
@@ -325,15 +325,15 @@ header {
     flex-wrap: wrap;
     gap: 2rem; }
     .partners .partner-logos .logo {
-      color: #D3D3D3; }
+      color: #d3d3d3; }
 
 .cta-btn {
-  background-color: #EC5242;
+  background-color: #ec5242;
   padding: 2rem;
   width: 80%;
   text-decoration: none;
   border: none;
-  color: #FFFFFF;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: lighter;
   margin-bottom: 6rem;
@@ -344,15 +344,15 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  border: 1px solid #272A31;
+  border: 1px solid #272a31;
   padding: 1rem;
   margin-bottom: 3rem; }
   .outline-btn a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #272A31; }
+    color: #272a31; }
   .outline-btn svg {
-    color: #EC5242; }
+    color: #ec5242; }
 
 .speaker-cards {
   margin-top: 5rem;
@@ -374,7 +374,7 @@ header {
       position: absolute;
       margin-left: -1.5rem;
       margin-top: -1.2rem;
-      background-color: #D3D3D3;
+      background-color: #d3d3d3;
       opacity: 0.5;
       z-index: -1; }
     .speaker-cards .speaker-card img {
@@ -382,16 +382,16 @@ header {
       width: 10rem;
       object-fit: cover; }
     .speaker-cards .speaker-card .speaker-name h3 {
-      color: #272A31;
+      color: #272a31;
       font-weight: 600;
       font-size: larger; }
     .speaker-cards .speaker-card .speaker-title p {
-      color: #EC5242;
+      color: #ec5242;
       padding-bottom: 1rem;
       padding-top: 0.5rem;
       font-size: smaller; }
     .speaker-cards .speaker-card .speaker-details p {
-      color: #272A31; }
+      color: #272a31; }
 
 .line {
   width: 3rem;
@@ -399,7 +399,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
-  background-color: #EC5242; }
+  background-color: #ec5242; }
 
 @media only screen and (max-width: 768px) {
   .top-nav {
@@ -414,7 +414,7 @@ header {
     flex-direction: row-reverse;
     align-items: center;
     padding: 1rem;
-    background-color: #FFF; }
+    background-color: #fff; }
     .main-navigation .navigation-logo {
       display: none; }
     .main-navigation .main-menu ul {
@@ -441,7 +441,7 @@ header {
         padding: 1rem; }
         .mobile-navigaton .mobile-menu ul li a {
           text-decoration: none;
-          color: #272A31; }
+          color: #272a31; }
         .mobile-navigaton .mobile-menu ul li:hover {
           background-color: rgba(236, 82, 66, 0.5);
           width: 100%;
@@ -470,7 +470,7 @@ header {
         padding: 6rem 2rem 2rem 0;
         font-size: 2rem;
         font-weight: 300;
-        color: #EC5242; }
+        color: #ec5242; }
       .head .head-content h1 {
         padding: 0 2rem 2rem 0;
         font-size: 4rem;
@@ -484,7 +484,7 @@ header {
         .head .head-content h1 .year {
           display: block; }
       .head .head-content .head-text {
-        border: 1px solid #FFFFFF;
+        border: 1px solid #fff;
         padding: 2rem;
         min-width: 100%;
         max-width: 100%; }
@@ -492,11 +492,11 @@ header {
           line-height: 2rem;
           overflow: auto; }
       .head .head-content .head-text-about {
-        border: 1px solid #FFFFFF;
+        border: 1px solid #fff;
         padding: 1rem;
         min-width: 100%;
         max-width: 150%;
-        background-color: #FFFFFF;
+        background-color: #fff;
         text-align: center; }
         .head .head-content .head-text-about p {
           line-height: 1rem; }
@@ -506,22 +506,21 @@ header {
         .head .head-content .head-date h4 {
           font-size: 2.3rem;
           font-weight: 700;
-          color: #272A31; }
+          color: #272a31; }
         .head .head-content .head-date p {
           padding: 1rem 1rem 1rem 0;
-          color: #D3D3D3;
+          color: #d3d3d3;
           font-size: 1.2rem;
           font-weight: 700; }
   .cards {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: left;
     width: 100%;
     margin-right: 2rem; }
     .cards .card {
       background-color: rgba(39, 42, 49, 0.5);
-      color: #D3D3D3;
+      color: #d3d3d3;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -531,14 +530,14 @@ header {
       .cards .card h6 {
         font-size: 1rem;
         font-weight: 400;
-        color: #EC5242;
+        color: #ec5242;
         margin-left: -1rem; }
       .cards .card .card-text {
         text-align: left; }
       .cards .card .icon {
         padding: 2rem 2rem 0 2rem; }
         .cards .card .icon svg {
-          color: #FFFFFF;
+          color: #fff;
           height: 2rem;
           width: 2rem; }
   .main-section .main-content {
@@ -563,7 +562,17 @@ header {
       text-align: center;
       display: block; }
       .featured .featured-title h2 {
-        color: #000000; }
+        color: #000; }
+  .partners {
+    height: 45rem; }
+    .partners .partners-title h3 {
+      padding-top: 4rem; }
+    .partners .partner-logos {
+      gap: 5rem;
+      margin-top: 2rem; }
+      .partners .partner-logos .logo {
+        height: 2rem !important;
+        width: 2rem !important; }
   .speaker-cards {
     margin-top: 5rem;
     margin-bottom: 6rem;
@@ -584,7 +593,7 @@ header {
         position: absolute;
         margin-left: -1.5rem;
         margin-top: -1.2rem;
-        background-color: #D3D3D3;
+        background-color: #d3d3d3;
         opacity: 0.5;
         z-index: -1; }
       .speaker-cards .speaker-card img {
@@ -592,22 +601,12 @@ header {
         width: 10rem;
         object-fit: cover; }
       .speaker-cards .speaker-card .speaker-name h3 {
-        color: #272A31; }
+        color: #272a31; }
       .speaker-cards .speaker-card .speaker-title p {
-        color: #EC5242;
+        color: #ec5242;
         padding-bottom: 1rem; }
       .speaker-cards .speaker-card .speaker-details p {
-        color: #272A31; }
-  .partners {
-    height: 45rem; }
-    .partners .partners-title h3 {
-      padding-top: 4rem; }
-    .partners .partner-logos {
-      gap: 5rem;
-      margin-top: 2rem; }
-      .partners .partner-logos .logo {
-        height: 2rem !important;
-        width: 2rem !important; }
+        color: #272a31; }
   #events {
     margin: 1rem 0;
     padding-top: 4rem; }
@@ -630,8 +629,8 @@ header {
   .outline-btn {
     display: none !important; }
   #main-navigation {
-    background-color: #FFF;
-    box-shadow: 5px 10px 8px #888888;
+    background-color: #fff;
+    box-shadow: 5px 10px 8px #888;
     padding: 0.5rem;
     position: fixed !important;
     top: 2rem;
