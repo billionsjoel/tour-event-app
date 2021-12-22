@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Tours Event
+# Tours Global Event Summit
 
 > A project that shows the tours event, speakers and activities organised.
 
-![screenshot](./images/validate-screenshot.png)
+![screenshot](./images/app-screenshot.png)
 
 ## Built With
 
