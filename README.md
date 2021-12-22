@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Tours Global Event Summit
+<p align="center"># Tours Global Event Summit </p>
+---------------------------------------------------------
 
-> A project that shows the tours event, speakers and activities organised.
+## About Laravel
+This is a project that shows the tours event, speakers and activities organised.
 
 ![screenshot](./images/app-screenshot.png)
 
@@ -60,11 +62,16 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I acknowledge the beautiful design by [Cindy Shin](https://www.behance.net/adagio07)
+- I acknowledge the hosting platfrom where i got the design on [behance.net](behance.net)
+- Lastly i acknowledge microverse for making all this possible
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within this project, please send an e-mail to Billions Joel via [joelatugonza@gmail.com](mailto:joelatugonza@gmail.com). All security vulnerabilities will be promptly addressed.
+
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md) licensed and subject to all creative cloud (cc) lincences.
 
