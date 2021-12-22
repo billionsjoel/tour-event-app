@@ -8,7 +8,7 @@
   }
 
   header{
-    height: 150vh;
+    height: 100vh;
   }
 
  .main-navigation {
@@ -140,12 +140,12 @@
       border: 1px solid #FFFFFF;
       padding: 1rem;
       min-width: 100%;
-      max-width: 100%;
+      max-width: 150%;
       background-color: #FFFFFF;
       text-align: center;
 
       & p {
-        line-height: 1.8rem;
+        line-height: 1rem;
       }
     }
 
@@ -237,7 +237,7 @@
 
 .featured {
   width: 100%;
-  margin-top: 190vh;
+  margin-top: 140vh;
 
 
   & .featured-title {

@@ -303,7 +303,7 @@ header {
 
 .featured {
   width: 100%;
-  margin-top: 70vh; }
+  margin-top: 80vh; }
   .featured .featured-title {
     text-align: center;
     display: block; }
@@ -407,7 +407,7 @@ header {
   .container {
     max-width: 85%; }
   header {
-    height: 150vh; }
+    height: 100vh; }
   .main-navigation {
     display: flex;
     justify-content: space-between;
@@ -495,11 +495,11 @@ header {
         border: 1px solid #FFFFFF;
         padding: 1rem;
         min-width: 100%;
-        max-width: 100%;
+        max-width: 150%;
         background-color: #FFFFFF;
         text-align: center; }
         .head .head-content .head-text-about p {
-          line-height: 1.8rem; }
+          line-height: 1rem; }
       .head .head-content .head-date {
         padding-top: 2rem;
         padding-bottom: 0; }
@@ -558,7 +558,7 @@ header {
         text-align: center; }
   .featured {
     width: 100%;
-    margin-top: 190vh; }
+    margin-top: 140vh; }
     .featured .featured-title {
       text-align: center;
       display: block; }
@@ -639,9 +639,12 @@ header {
     overflow: hidden;
     z-index: 1; } }
 
-@media only screen and (min-width: 768px) and (max-width: 1222px) {
+@media only screen and (min-width: 768px) and (max-width: 1326px) {
+  .featured {
+    width: 100%;
+    margin-top: 120vh; }
   #events {
-    margin-top: 17rem !important;
+    margin-top: 15rem !important;
     padding-top: 8rem; }
   .event-cards {
     display: flex;
