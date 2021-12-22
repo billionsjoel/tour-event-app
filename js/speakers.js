@@ -1,57 +1,51 @@
-let speakerCards = document.querySelector('.speaker-cards');
+const speakerCards = document.querySelector('.speaker-cards');
 
-let speakers = [
-	{
-		id: 1,
-		userName: 'Billions',
-		title: 'Doctor',
-		description:
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
-	},
-	{
-		id: 2,
-		userName: 'Joel',
-		title: 'Proffessor',
-		description:
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
-	},
+const speakers = [
+  {
+    id: 1,
+    userName: 'Billions',
+    title: 'Doctor',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
+  },
+  {
+    id: 2,
+    userName: 'Joel',
+    title: 'Proffessor',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
+  },
 
-	{
-		id: 3,
-		userName: 'Mike',
-		title: 'James Bond',
-		description:
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
-	},
+  {
+    id: 3,
+    userName: 'Mike',
+    title: 'James Bond',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
+  },
 
-	{
-		id: 4,
-		userName: 'Shiella Grey',
-		title: 'Nurse',
-		description:
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
-	},
-	{
-		id: 5,
-		userName: 'Daniel White',
-		title: 'Nurse',
-		description:
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
-	},
-	{
-		id: 6,
-		userName: 'John Doe',
-		title: 'Nurse',
-		description:
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
-	},
+  {
+    id: 4,
+    userName: 'Shiella Grey',
+    title: 'Nurse',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
+  },
+  {
+    id: 5,
+    userName: 'Daniel White',
+    title: 'Nurse',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
+  },
+  {
+    id: 6,
+    userName: 'John Doe',
+    title: 'Nurse',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium facilis deserunt pariatur nesciunt obcaecati odio? Dolore molestiae quae rem.',
+  },
 ];
 
-for (let i = 0; i <= speakers.length; i++) {
-	if (speakers[i] == undefined) {
-		speakerCards.innerHTML += '';
-	} else {
-		let htmlContent = `
+for (let i = 0; i <= speakers.length; i += 1) {
+  if (speakers[i] === undefined) {
+    speakerCards.innerHTML += '';
+  } else {
+    const htmlContent = `
           <div class="speaker-card">
             <div class="left">
               <div class="speaker-card-bg">
@@ -108,6 +102,6 @@ for (let i = 0; i <= speakers.length; i++) {
               </div>
             </div>
           </div>`;
-		speakerCards.innerHTML += htmlContent;
-	}
+    speakerCards.innerHTML += htmlContent;
+  }
 }

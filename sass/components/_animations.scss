@@ -1,0 +1,8 @@
+.main-navigation .main-menu ul li a:hover {
+  background-color: $color-primary;
+  padding: 0.5rem 1.05rem;
+  transform: scale(1.01);
+  transition: 0.3s all ease-in-out;
+  color: #fff;
+  border-radius: 5px;
+}
