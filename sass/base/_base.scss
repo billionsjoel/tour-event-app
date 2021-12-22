@@ -6,10 +6,25 @@
   box-sizing: inherit;
 }
 
-html {
-  font-size: 62.5%;
+.color-secondary {
+  color: $color-secondary;
+}
+.color-primary {
+  color: $color-primary;
 }
 
-body {
-  box-sizing: border-box;
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.line--grey {
+  width: 2rem;
+  height: 1.5px;
+  margin-top: -0.1rem;
+  margin-bottom: 1rem;
+  background-color: lighten($color: #9b9898, $amount: 1)  ;
 }

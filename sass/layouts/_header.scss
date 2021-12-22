@@ -1,0 +1,187 @@
+/* ------------------------
+    General styles
+  -------------------------- */
+
+header {
+  height: 95vh;
+  background-image: linear-gradient(to left bottom, rgba(243, 246, 243, 0.95), rgba(251, 251, 245, 0.95)), url(../images/forest-bg.jpeg);
+  background-size: cover;
+  background-position: top;
+}
+
+.top-nav {
+  background-color: $color-dark;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+
+  & ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    & li {
+      color: $color-secondary;
+      list-style: none;
+      padding: 0.3rem 0.3rem 0.3rem 0.8rem;
+
+      & icon{
+        display: block;
+        height: 2rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#main-navigation {
+  background-color: #FFF;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #FFF;
+
+  & .navigation-logo {
+
+    & svg {
+      height: 2rem;
+      width: 2rem;
+      color: $color-dark;
+
+      &:hover {
+        transform: rotate(360deg) scale(1.5);
+        transition: 0.4s all ease-in-out;
+        color: $color-primary;
+      }
+    }
+  }
+
+  & .main-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+  //& .last-child {
+  //  border: 2px solid $color-primary;
+  //  padding: 0.5rem 1rem;
+  //  border-radius: 5px;
+  //}
+
+  & li a {
+    color: $color-dark;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+      background-color: $color-primary;
+      padding: 0.5rem 1.05rem;
+      transform: scale(1.01);
+      transition: 0.3s all ease-in-out;
+      color: #FFFFFF;
+      border-radius: 5px;
+    }
+  }
+ }
+
+  & .menu-icon {
+    display: none;
+  }
+}
+
+
+
+.head {
+  height: 90vh;
+  margin-top: 1rem;
+
+  & .head-content{
+    margin-top: 2rem;
+
+  & h2 {
+    padding-top: 10rem !important;
+  }
+
+    & h6 {
+      padding: 6rem 2rem 2rem 0;
+      font-size: 4rem;
+      font-weight: 300;
+      color: $color-primary;
+    }
+
+    & h1 {
+      padding: 0 2rem 2rem 0;
+      font-size: 7rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+	    background-image: url('../../images/red-pattern.jpeg');
+
+        & .year{
+          display: block;
+        }
+    }
+
+    & h2 {
+        padding: 0 2rem 2rem 0;
+        font-size: 7rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $color-primary;
+        text-align: center;
+    }
+
+    & .head-text {
+      border: 1px solid #FFFFFF;
+      padding: 2rem;
+      min-width: 50%;
+      max-width: 50%;
+
+      & p {
+          line-height: 2rem;
+        }
+    }
+
+    & .head-text-about {
+      border: 1px solid #FFFFFF;
+      padding: 2rem;
+      min-width: 100%;
+      max-width: 100%;
+      background-color: #FFFFFF;
+      text-align: center;
+
+      & p {
+          line-height: 2rem;
+          overflow: auto;
+
+        }
+    }
+
+    & .head-date {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+      & h4 {
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: $color-dark;
+      }
+
+      & p {
+        padding: 1rem 1rem 1rem 0;
+        color: $color-secondary;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+  }
+}

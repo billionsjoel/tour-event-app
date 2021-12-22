@@ -8,7 +8,17 @@
 @import "pages/about";
 @import "pages/home";
 
+@import "layouts/container";
 @import "layouts/header";
+@import "layouts/main-section";
 @import "layouts/footer";
+@import "layouts/speaker-section";
+@import "layouts/partners";
 
 @import "components/buttons";
+@import "components/speaker-card";
+@import "components/underline";
+
+@import "media/mobile";
+@import "media/desktop";
+@import "media/tablet";

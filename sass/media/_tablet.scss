@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) and (max-width:1222px) {
+#events {
+  margin-top: 15rem !important;
+  padding-top: 8rem;
+}
+
+.event-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 4rem;
+
+  & .event-card-1 {
+    width: 100%;
+  }
+
+  & .event-card-2 {
+    width: 100%;
+  }
+}
+}

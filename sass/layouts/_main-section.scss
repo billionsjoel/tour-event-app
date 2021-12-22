@@ -1,0 +1,86 @@
+.main-section {
+  background-image: url('../../images/black-texture-bg.jpeg');
+  position: absolute;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+
+  & .main-content {
+      width: 100%;
+
+    & h3 {
+        color: #FFFFFF;
+        text-align: center;
+        padding: 4rem;
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 400;
+      }
+
+    & .line {
+      width: 3rem;
+      height: 1px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -3rem;
+      background-color: $color-primary;
+    }
+
+    & .cta {
+      text-align: center;
+      margin-bottom: 6rem;
+
+      & > a {
+        color: #FFFFFF;
+        text-transform: uppercase;
+        line-height: 1.5rem;
+        font-size: 1.4rem;
+        font-weight: 300;
+      }
+      & > button {
+        display: none;
+      }
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin: 6rem 0 6rem 0;
+
+  & .card {
+    background-color: rgba($color-dark, 0.5);
+    color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: middle;
+    align-items: center;
+    width: 500px !important;
+
+    & h6 {
+      font-size: 2rem;
+      font-weight: 400;
+      color: $color-primary;
+    }
+
+    & .card-text {
+      text-align: center;
+      padding: 1rem;
+      line-height: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    & .icon {
+      padding: 2rem 2rem 0 2rem;
+
+      & svg {
+        color: #FFFFFF;
+        height: 4rem;
+        width: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+#events {
+  margin: 3rem 0;
+}
+
+.events {
+
+  & .event-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  & .events-title{
+    text-align: center;
+    & p{
+      font-weight: 300;
+      padding: 2rem;
+      color: $color-dark;
+    }
+  }
+
+  & .event-card-1 {
+    background-image: linear-gradient(to bottom, rgba($color-primary, 0.95), rgba($color-primary, 0.95)),
+    url(../../images/forest-bg.jpeg);
+    height: 25rem;
+    width: 40%;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: color;
+    object-fit: contain;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+  & .event-card-2 {
+    background-image: linear-gradient(to bottom, rgba($color-primary, 0.95), rgba($color-primary, 0.95)),
+    url(../../images/event-couple.jpeg);
+    height: 25rem;
+    width: 40%;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: color;
+    object-fit: contain;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
