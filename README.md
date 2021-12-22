@@ -14,6 +14,7 @@
 
 ### Active Link
  - Click [here](https://billionsjoel.github.io/) for the live site.
+ - Note : The link will be available after project is approved.
 
 ### Prerequisites
 - A modern upto-date browser
@@ -28,7 +29,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-  - Clone the repository using the repo link [here](git+https://github.com/billionsjoel/tour-event-app.git)
+  - Clone the repository using the repo link [here](git+https://github.com/billionsjoel/tour-event-app.git/)
   - Open terminal and navigate to the downloaded / project folder
   - run npm install
   - run npm run compile:sass
