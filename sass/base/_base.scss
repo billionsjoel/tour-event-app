@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
+
+.color-secondary {
+  color: $color-secondary;
+}
+
+.color-primary {
+  color: $color-primary;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.line--grey {
+  width: 2rem;
+  height: 1.5px;
+  margin-top: -0.1rem;
+  margin-bottom: 1rem;
+  background-color: lighten($color: #9b9898, $amount: 1);
+}
+
+.center {
+  text-align: center;
+}

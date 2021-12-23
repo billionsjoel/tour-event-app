@@ -1,0 +1,396 @@
+@media only screen and (max-width: 768px) {
+  .top-nav {
+    display: none;
+  }
+
+  .container {
+    max-width: 85%;
+  }
+
+  header {
+    height: 120vh;
+  }
+
+  #main-navigation {
+    background-color: transparent;
+  }
+
+  .main-navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 1rem;
+    background-color: transparent;
+
+    & .navigation-logo {
+      display: none;
+    }
+
+    & .main-menu ul {
+      display: none;
+    }
+
+    & .menu-icon {
+      display: block;
+      margin-top: 1rem;
+
+      & svg {
+        height: 4rem;
+        width: 4rem;
+      }
+    }
+  }
+
+  .mobile-navigaton {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+
+    & .mobile-menu ul {
+      list-style: none;
+      width: auto;
+      height: auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & li {
+        padding: 1rem;
+
+        & a {
+          text-decoration: none;
+          color: $color-dark;
+        }
+
+        &:hover {
+          background-color: rgba($color-primary, 0.5);
+          width: 100%;
+          text-align: center;
+          transform: scale(1.2);
+          transition: 1s all ease-in-out;
+        }
+      }
+    }
+
+    & .close-btn {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 5rem;
+      padding: 1rem;
+
+      & svg {
+        height: 2rem;
+        width: 2rem;
+      }
+    }
+  }
+
+  #header-about {
+    height: 100vh !important;
+  }
+
+  .head {
+    height: 100vh;
+    margin-top: -2rem;
+
+    & .head-content {
+      margin-top: 0;
+
+      & h2 {
+        font-size: 2rem;
+        margin-top: -6rem;
+      }
+
+      & h6 {
+        padding: 6rem 2rem 2rem 0;
+        font-size: 2rem;
+        font-weight: 300;
+        color: $color-primary;
+      }
+
+      & h1 {
+        padding: 0 2rem 2rem 0;
+        font-size: 4rem;
+        display: inline-block;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: transparent;
+        //background-clip: text;
+        -webkit-background-clip: text;
+        background-image: url('../../images/red-pattern.jpeg');
+
+        & .year {
+          display: block;
+        }
+      }
+
+      & .head-text {
+        border: 1px solid #fff;
+        padding: 2rem;
+        min-width: 100%;
+        max-width: 100%;
+
+        & p {
+          line-height: 2rem;
+          overflow: auto;
+        }
+      }
+
+      & .head-text-about {
+        border: 1px solid #fff;
+        padding: 1rem;
+        min-width: 100%;
+        max-width: 150%;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+
+        & p {
+          line-height: 1.5rem;
+        }
+      }
+
+      & .head-date {
+        padding-top: 2rem;
+        padding-bottom: 0;
+
+        & h4 {
+          font-size: 2.3rem;
+          font-weight: 700;
+          color: $color-dark;
+        }
+
+        & p {
+          padding: 1rem 1rem 1rem 0;
+          color: $color-secondary;
+          font-size: 1.2rem;
+          font-weight: 700;
+          margin-bottom: 3rem !important;
+        }
+      }
+
+      & .contact-container {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .about-main {
+    & .about-main-title {
+      font-size: 2rem;
+      color: $color-dark;
+    }
+
+    & .about-main-text {
+      padding: 1rem;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 300;
+      line-height: 1.2rem;
+      color: $color-dark;
+    }
+
+    & .about-main-logo {
+      padding: 2rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      border: 1px solid $color-secondary;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+      & svg {
+        border: 2px solid $color-secondary;
+        border-radius: 100%;
+        height: 6rem;
+        width: 6rem;
+        padding: 1rem;
+        color: $color-secondary;
+      }
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 2rem;
+
+    & .card {
+      background-color: rgba($color-dark, 0.5);
+      color: $color-secondary;
+      display: flex;
+      flex-direction: row;
+      justify-content: center !important;
+      align-items: center !important;
+      width: 100% !important;
+      margin-left: 0;
+      height: 100%;
+
+      & h6 {
+        font-size: 1rem;
+        font-weight: 400;
+        color: $color-primary;
+        text-align: center;
+        margin: auto;
+        width: 25%;
+      }
+
+      & .card-text {
+        text-align: left;
+        margin: auto 1rem;
+        width: 55%;
+      }
+
+      & .icon {
+        padding: 2rem 2rem 2rem 2rem;
+        width: 5%;
+        text-align: left;
+
+        & svg {
+          color: #fff;
+          height: 2rem;
+          width: 2rem;
+          text-align: left;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  .main-section {
+    & .main-content {
+      width: 100%;
+
+      & .cta {
+        text-align: center;
+        margin-bottom: 6rem;
+        margin-top: -4rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > a {
+          display: none;
+        }
+
+        & button {
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .featured {
+    width: 100%;
+    margin-top: 140vh;
+
+    & .featured-title {
+      text-align: center;
+      display: block;
+
+      & h2 {
+        color: #000;
+      }
+    }
+  }
+
+  .partners {
+    height: 45rem;
+
+    & .partners-title h3 {
+      padding-top: 4rem;
+    }
+
+    & .partner-logos {
+      gap: 5rem;
+      margin-top: 2rem;
+
+      & .logo {
+        height: 2rem !important;
+        width: 2rem !important;
+      }
+    }
+  }
+
+  .speaker-cards {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    & .speaker-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 1rem;
+
+      & .speaker-card-bg svg {
+        height: 8rem;
+        width: 8rem;
+        position: absolute;
+        margin-left: -1.5rem;
+        margin-top: -1.2rem;
+        background-color: $color-secondary;
+        opacity: 0.5;
+        z-index: -1;
+      }
+
+      & img {
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+      }
+
+      & .speaker-name h3 {
+        color: $color-dark;
+      }
+
+      & .speaker-title p {
+        color: $color-primary;
+        padding-bottom: 1rem;
+      }
+
+      & .speaker-details p {
+        color: $color-dark;
+      }
+    }
+  }
+
+  #events {
+    margin: 1rem 0;
+    padding-top: 4rem;
+  }
+
+  .event-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+
+    & .event-card-1 {
+      width: 100%;
+    }
+
+    & .event-card-2 {
+      width: 100%;
+    }
+  }
+}

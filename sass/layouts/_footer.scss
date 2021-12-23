@@ -1,0 +1,29 @@
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: $color-dark;
+  padding: 6rem;
+  gap: 2rem;
+
+  & .footer-logo {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    & svg {
+      height: 4rem;
+      width: 4rem;
+      padding: 1rem;
+      border: 1px solid $color-secondary;
+      border-radius: 100px 100px 100px 100px;
+    }
+
+    & p {
+      padding: 1rem;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  }
+}
