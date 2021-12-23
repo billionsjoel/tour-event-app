@@ -417,7 +417,7 @@ header {
   text-transform: uppercase;
   color: transparent;
   -webkit-background-clip: text;
-  background-image: url("../../images/red-pattern.jpeg");
+  background-image: url("../images/red-pattern.jpeg");
 }
 
 .head .head-content h1 .year {
