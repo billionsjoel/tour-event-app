@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-<p align="center"># Tours Global Event Summit </p>
----------------------------------------------------------
+### Tours Global Event Summit
 
-## About Laravel
+## About TGE Summit
 This is a project that shows the tours event, speakers and activities organised.
 
 ![screenshot](./images/app-screenshot.png)
