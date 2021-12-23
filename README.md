@@ -14,7 +14,7 @@ This is a project that shows the tours event, speakers and activities organised.
 - Git, Github and VsCode.
 
 ### Active Link
- - Click [here](https://billionsjoel.github.io/) for the live site.
+ - Click [here](https://billionsjoel.github.io/tour-event-app/index.html) for the live site.
 
 ### Demo Link
  - Click [here](https://www.loom.com/share/b35c811fea9c4ef8885913104b3da3d8) for the demo video of the site.
