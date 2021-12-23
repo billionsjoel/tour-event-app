@@ -146,7 +146,7 @@ body {
 }
 
 .events .event-card-1 {
-  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.95), rgba(236, 82, 66, 0.95)), url(../../images/forest-bg.jpeg);
+  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.95), rgba(236, 82, 66, 0.95)), url(../images/forest-bg.jpeg);
   height: 25rem;
   width: 40%;
   background-position: top;
@@ -162,7 +162,7 @@ body {
 }
 
 .events .event-card-2 {
-  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.95), rgba(236, 82, 66, 0.95)), url(../../images/event-couple.jpeg);
+  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.95), rgba(236, 82, 66, 0.95)), url(../images/event-couple.jpeg);
   height: 25rem;
   width: 40%;
   background-position: top;
@@ -757,7 +757,7 @@ header {
     text-transform: uppercase;
     color: transparent;
     -webkit-background-clip: text;
-    background-image: url("../../images/red-pattern.jpeg");
+    background-image: url("../images/red-pattern.jpeg");
   }
 
   .head .head-content h1 .year {
@@ -1073,7 +1073,7 @@ header {
     text-transform: uppercase;
     color: transparent;
     -webkit-background-clip: text;
-    background-image: url("../../images/red-pattern.jpeg");
+    background-image: url("../images/red-pattern.jpeg");
   }
 
   .head .head-content h1 .year {
