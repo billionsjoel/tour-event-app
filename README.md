@@ -16,7 +16,9 @@ This is a project that shows the tours event, speakers and activities organised.
 
 ### Active Link
  - Click [here](https://billionsjoel.github.io/) for the live site.
- - Note : The link will be available after project is approved.
+
+### Demo Link
+ - Click [here](https://www.loom.com/share/b35c811fea9c4ef8885913104b3da3d8) for the demo video of the site.
 
 ### Prerequisites
 - A modern upto-date browser
