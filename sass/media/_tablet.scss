@@ -32,11 +32,13 @@
 
       & h2 {
         padding: 0 2rem 2rem 0;
-        font-size: 7rem;
+        font-size: 3rem;
         font-weight: 900;
         text-transform: uppercase;
         color: $color-primary;
         text-align: center;
+        margin-top: -4rem;
+        margin-bottom: 1rem;
       }
 
       & .head-text {
@@ -44,6 +46,7 @@
         padding: 2rem;
         min-width: 100%;
         max-width: 100%;
+        margin-bottom: 1rem;
 
         & p {
           line-height: 2rem;
@@ -57,6 +60,7 @@
         max-width: 100%;
         background-color: #fff;
         text-align: center;
+        margin-top: -2rem;
 
         & p {
           line-height: 2rem;
@@ -89,8 +93,12 @@
     margin-top: 120vh;
   }
 
+  .contact-container {
+    margin-top: 1rem;
+  }
+
   #about-main {
-    margin-top: 70vh;
+    margin-top: 1rem;
   }
 
   .about-main {

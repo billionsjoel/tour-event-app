@@ -89,7 +89,7 @@
   }
 
   #header-about {
-    height: 85vh !important;
+    height: 100vh !important;
   }
 
   .head {
@@ -144,11 +144,11 @@
         padding: 1rem;
         min-width: 100%;
         max-width: 150%;
-        background-color: #fff;
+        background-color: rgb(255, 255, 255);
         text-align: center;
 
         & p {
-          line-height: 1rem;
+          line-height: 1.5rem;
         }
       }
 
@@ -169,6 +169,11 @@
           font-weight: 700;
           margin-bottom: 3rem !important;
         }
+      }
+
+      & .contact-container {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
       }
     }
   }
