@@ -1,7 +1,111 @@
-@media only screen and (min-width: 768px) and (max-width: 1326px) {
+@media only screen and (min-width: 768px) and (max-width: 1880px) {
+  .head {
+    height: 90vh;
+    margin-top: 1rem;
+
+    & .head-content {
+      margin-top: 2rem;
+
+      & h6 {
+        padding: 6rem 2rem 2rem 0;
+        font-family: 'Lato', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        color: $color-primary;
+      }
+
+      & h1 {
+        padding: 0 2rem 2rem 0;
+        font-family: 'COCOGOOSE', sans-serif;
+        font-size: 4rem !important;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: transparent;
+        //background-clip: text;
+        -webkit-background-clip: text;
+        background-image: url('../../images/red-pattern.jpeg');
+
+        & .year {
+          display: block;
+        }
+      }
+
+      & h2 {
+        padding: 0 2rem 2rem 0;
+        font-size: 7rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $color-primary;
+        text-align: center;
+      }
+
+      & .head-text {
+        border: 1px solid #fff;
+        padding: 2rem;
+        min-width: 100%;
+        max-width: 100%;
+
+        & p {
+          line-height: 2rem;
+        }
+      }
+
+      & .head-text-about {
+        border: 1px solid #fff;
+        padding: 2rem;
+        min-width: 100%;
+        max-width: 100%;
+        background-color: #fff;
+        text-align: center;
+
+        & p {
+          line-height: 2rem;
+          overflow: auto;
+        }
+      }
+
+      & .head-date {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        & h4 {
+          font-size: 2.3rem;
+          font-weight: 700;
+          color: $color-dark;
+        }
+
+        & p {
+          padding: 1rem 1rem 1rem 0;
+          color: $color-secondary;
+          font-size: 1.2rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
   .featured {
     width: 100%;
     margin-top: 120vh;
+  }
+
+  #about-main {
+    margin-top: 70vh;
+  }
+
+  .about-main {
+    & .about-main-title {
+      font-size: 2rem;
+      color: $color-dark;
+    }
+
+    & .about-main-text {
+      max-width: 100%;
+    }
+
+    & .about-main-logo {
+      width: 100%;
+    }
   }
 
   #events {

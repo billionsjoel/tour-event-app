@@ -41,7 +41,7 @@ const speakers = [
   },
 ];
 
-for (let i = 0; i <= speakers.length; i += 1) {
+speakers.forEach((speaker, i) => {
   if (speakers[i] === undefined) {
     speakerCards.innerHTML += '';
   } else {
@@ -104,4 +104,4 @@ for (let i = 0; i <= speakers.length; i += 1) {
           </div>`;
     speakerCards.innerHTML += htmlContent;
   }
-}
+});
